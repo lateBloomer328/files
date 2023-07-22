@@ -1,0 +1,20 @@
+
+public class VarEx2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//변수의 타입 : 변수에 어떤 값을 저장 하느냐에 따라 타입이 결정된다. 실수, 정수, 문자열 등등 따라서 알맞은 타입으로 변수를 선언해 주어야 한다.
+		/*값의 타입
+		 * 문자 - char, string
+		 * 숫자
+		 * 		정수 - byte, short, int, long 저장하고자 하는 값의 크기와 용도에 따라 타입을 결정해 사용한다.
+		 * 		실수 - float, double
+		 * 논리 - boolean - true, false
+		 */
+		//변수, 상수, 리터럴
+		final int score; //= 100;
+		score = 200;
+		System.out.println(score);
+	}
+
+}

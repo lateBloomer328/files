@@ -1,0 +1,10 @@
+
+public class OperatorEx7 {
+	public static void main(String[] args) {
+		//산술 연산자를 사용할 때 올바을 타입을 사용해야하는 이유, 또는 명시적 형변환이 필요한 이유2
+		int a = 1_000_000, b=2_000_000;
+		long c =a*b;
+		System.out.println(c);
+	}
+}
+	

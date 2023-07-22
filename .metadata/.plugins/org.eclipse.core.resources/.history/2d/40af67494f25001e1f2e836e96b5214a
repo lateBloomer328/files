@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class ScannerEx1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Scanner 화면으로부터 데이터를 입력받는 기능울 제공하는 클래스
+		Scanner scanner = new Scanner(System.in);
+		int num = scanner.nextInt();
+		int num = scanner.nextInt();
+
+		
+		
+		System.out.println(num);
+	}
+
+}

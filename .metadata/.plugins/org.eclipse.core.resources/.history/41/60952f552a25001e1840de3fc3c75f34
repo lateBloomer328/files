@@ -1,0 +1,18 @@
+
+public class VarEx3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int x = 4, y = 2;
+		int tmp;
+		tmp = x;
+		x = y;
+		y = tmp;
+		
+		System.out.println("x="+x);
+		System.out.println("y="+y);
+		//위와 같이 변수를 활용한다면, x값과 y값만 수정하면 된다.
+	}
+
+}

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Overflowint {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Scanner 화면으로부터 데이터를 입력받는 기능울 제공하는 클래스
+		Scanner scanner = new Scanner(System.in);
+		//화면으로 부터 입력 받은 정수를 출력하기
+//		int num = scanner.nextInt();
+//		int num2 = scanner.nextInt();
+//		System.out.println(num);
+//		System.out.println(num2);
+		//화면으로 부터 문자열을 입력 받아, 정수의 형태로 변환한 뒤 출력하기
+		String input = scanner.nextLine();
+		int num = Integer.parseInt(input);
+		
+		System.out.println(input);
+	}
+
+}

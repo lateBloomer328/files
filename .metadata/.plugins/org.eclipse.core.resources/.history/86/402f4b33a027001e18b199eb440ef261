@@ -1,0 +1,21 @@
+
+public class OperatorEx7 {
+	public static void main(String[] args) {
+		//산술 연산자를 사용할 때 올바을 타입을 사용해야하는 이유, 또는 명시적 형변환이 필요한 이유2
+		int a = 1_000_000, b=2_000_000;
+		long c =a*b;
+		System.out.println(c); // 계산 결과가 int 범위를 벗어나지만 그보다 큰 long 자료형에 담기기 때문에 문제가 없어 보인다 하지만 결과는 2_000_000_000_000 2조가 아닌 -1454759936
+		//그 이유는 이미 계산이 끝난 후에 c에 저장되기 때문이다 int * int = int 이다. 따라서 이미 오버플로우가 발생한 후이기 때문에 long형에 저장 된다고 해도 우리가 원하는 값을 반환 할 수 없다
+		//피연산자 중 하나를 long 형으로 변환하거나 둘 다 long형으로 변환해야 한다.
+		c = (long)a * b;
+		System.out.println(c);//a의 타입을 long으로 명시적 변환 해주었기 때문에 올바른 결과를 반환한다.
+		
+		//비슷하지만 다른 예도 있다
+		long d = 1_000_000 * 1_000_000;
+		long e = 1_000_000 * 1_000_000L;
+		
+		System.out.println("d="+d);
+		System.out.println("e="+e);
+	}
+}
+	

@@ -1,0 +1,10 @@
+import java.awt.font.TextHitInfo;
+
+public class CastingEx1 {
+	public static void main(String[] args) {
+		double d = 68.7;
+		int i = (int)d;
+		System.out.println(i);
+		
+	}
+}

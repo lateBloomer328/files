@@ -1,0 +1,15 @@
+import javax.swing.text.html.HTMLDocument.HTMLReader.SpecialAction;
+
+public class OperatorEx5 {
+	public static void main(String[] args) {
+		//산술 연산자
+		int a=5, b=25;
+		
+		System.out.printf("%d + %d = %d%n", a, b, a+b);
+		System.out.printf("%d - %d = %d%n", a, b, a-b);
+		System.out.printf("%d * %d = %d%n", a, b, a*b);
+		System.out.printf("%d / %d = %d%n", a, b, a/b);
+		System.out.printf("%d / %f = %f%n", a, b, a/b);
+	}
+}
+	

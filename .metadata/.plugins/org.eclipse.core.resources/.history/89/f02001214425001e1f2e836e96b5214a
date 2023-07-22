@@ -1,0 +1,16 @@
+
+public class PrintfEx1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// printf와 println의 차이
+		// 지시자(formatter)
+		System.out.printf("%d%n", 15);
+		System.out.printf("%#o%n", 15);
+		System.out.printf("%#x%n", 15);
+		System.out.printf("%s", Integer.toBinaryString(15));
+		
+		float f = 123.456789f;
+		System.out.printf("%f%n", f)
+		}
+}

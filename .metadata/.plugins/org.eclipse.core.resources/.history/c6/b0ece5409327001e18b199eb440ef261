@@ -1,0 +1,13 @@
+import java.awt.font.TextHitInfo;
+
+public class OperatorEx1 {
+	public static void main(String[] args) {
+		int i = 327, i2=327;
+		i++;
+		++i2;
+		System.out.println(i);
+		System.out.println(i2);
+	
+	}
+	}
+	

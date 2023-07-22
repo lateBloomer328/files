@@ -1,0 +1,10 @@
+
+public class Overflowint {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		short i = 32767;
+		System.out.println(i+2);//오버 플로우 발생으로 -32768을 출력
+	}
+
+}

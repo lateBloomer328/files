@@ -1,0 +1,15 @@
+import java.awt.font.TextHitInfo;
+
+public class CastingEx2 {
+	public static void main(String[] args) {
+		double d = 1.8E100;
+		float f = (float)d;
+		System.out.println(f);
+		
+		d = 4.9E-100;
+		f = (float)d;
+		System.out.println(f);
+	
+	}
+}
+	

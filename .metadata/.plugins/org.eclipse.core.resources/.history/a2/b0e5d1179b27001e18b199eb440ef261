@@ -1,0 +1,10 @@
+
+public class OperatorEx6 {
+	public static void main(String[] args) {
+		//산술 연산자를 사용할 때 올바을 타입을 사용해야하는 이유, 또는 명시적 형변환이 필요한 이유
+		byte a = 1, b = 2;
+		byte c = a + b;
+		
+	}
+}
+	

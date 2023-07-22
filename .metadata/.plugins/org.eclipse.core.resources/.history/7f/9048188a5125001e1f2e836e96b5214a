@@ -1,0 +1,10 @@
+
+public class Overflowint {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		short i = 32767;
+		System.out.println(++i);
+	}
+
+}

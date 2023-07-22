@@ -1,0 +1,22 @@
+
+public class FloatEX1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 /* 실수형 범위
+		 * ---------------------------------------
+		 * |자료형  |값의 범위(양수)      |정밀도|크기byte|
+		 * |float |1.4E-45~3.4E38   |7   |4      |부호(1byte) 지수(8byte) 가수(23byte) = 4byte(32bit)
+		 * |double|4.9E-324~1.8E-308|15  |18     |부호(1byte) 지수(11byte) 가수(52byte) = 8byte(64bit)
+		 * ---------------------------------------
+		  */
+		// 실수형의 정밀도 flaot - 소수점 포잠 7자리 , double 소수점 포함 15자리
+		float f = 9.12345678901234567890f;
+		float f2 = 1.2345678901234567890f;
+		double d = 9.12345678901234567890;
+		System.out.printf("N : 123456789012345678901234%n");
+		System.out.printf("f :   %f%n", f);
+		System.out.printf("f : %24.20f%n", f);
+
+	}
+}

@@ -1,0 +1,12 @@
+public class OperatorEx3 {
+	public static void main(String[] args) {
+		//메서드에서 증감 연사자를 호출 할 경우 전위, 후위의 차이
+		int i = 0, j = 0;
+		System.out.println("i=" + i++);//후위 증감 연산자를 메서드에서 호출
+		System.out.println("j=" + ++j);//전위 증감 연산자를 메서드에서 호출
+		//호출 후 저장된 값
+		System.out.println("i="+i, "j="+j);
+		
+	}
+}
+	
